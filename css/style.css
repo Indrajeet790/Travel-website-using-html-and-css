@@ -142,11 +142,12 @@ h3 {
 /* ##################showcase section styling */
 .showcase {
   background: #ddd;
-  padding: 10rem 0rem;
+  padding: 10rem 0;
 }
 .row {
   height: 350px;
-  border: 2px solid red;
+
+  background: #fff;
 }
 .row1 {
   margin-bottom: 10rem;
@@ -162,4 +163,18 @@ h3 {
 .row1 .text-box {
   float: right;
   width: 50%;
+}
+
+.row .img-box {
+  height: 100%;
+}
+.row .text-box {
+  /* height: 100%; */
+  padding: 2rem;
+}
+.row .img-box img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
