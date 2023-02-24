@@ -433,3 +433,142 @@ h3 {
   border: none;
   cursor: pointer;
 }
+/* #################Responsive website########### */
+
+@media (max-width: 500px) {
+  html {
+    /* font-size:8px; */
+    font-size: 50%;
+  }
+  /* home page media query(responsive page) */
+  .nav-bar .nav-items,
+  .nav-bar .logo {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .header-content .main-heading {
+    display: none;
+  }
+  .row {
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* features section */
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.519);
+  }
+  .features .box-2,
+  .features .box-3 {
+    margin-top: 5rem;
+  }
+  box-wrapper {
+    box-shadow: none;
+  }
+  /* about page responsive design */
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* contact us page responsive */
+  .form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 501px) and(max-width:768) {
+  html {
+    /* font-size:8px; */
+    font-size: 50%;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  /* home page media query(responsive page) */
+  .nav-bar .nav-items,
+  .nav-bar .logo {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .header-content .main-heading {
+    display: none;
+  }
+  .row {
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* features section */
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.519);
+  }
+  .features .box-2,
+  .features .box-3 {
+    margin-top: 5rem;
+  }
+  box-wrapper {
+    box-shadow: none;
+  }
+  /* about page responsive design */
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* contact us page responsive */
+  .form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
